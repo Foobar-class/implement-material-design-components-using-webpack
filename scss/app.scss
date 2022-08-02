@@ -1,0 +1,17 @@
+@use "@material/button/styles";
+@use "@material/button";
+
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #fce4ec;
+}
+.container{
+    text-align: center;
+}
+.my-button {
+    @include button.ink-color(#ff9e80);
+}
